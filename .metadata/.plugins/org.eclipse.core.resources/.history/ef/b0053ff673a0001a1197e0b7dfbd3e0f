@@ -1,0 +1,32 @@
+package com.luan.cursojava.aula15.labs;
+
+import java.util.Scanner;
+
+public class Exer11 {
+
+	private static Scanner scan;
+
+	public static void main(String[] args) {
+		
+		scan = new Scanner (System.in);
+		//Entrando o salario e decalrando a variável
+		System.out.println("Digite o salário: ");
+		double salario = scan.nextDouble();
+		
+		int percentual;
+		if (salario =< 280) {
+			percentual = 20;
+		} else if (salario =< 700) {
+			percentual = 15;
+		} else if (salario =< 1500) {
+			percentual = 10;
+		} else if (salario > 1500) {
+			percentual = 5;
+		} else {
+			
+		}
+		 
+
+	}
+
+}
