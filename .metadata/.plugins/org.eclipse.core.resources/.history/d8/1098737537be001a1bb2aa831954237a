@@ -1,6 +1,6 @@
-package com.luan.cursojava.aula15.labs;
+package com.luan.cursojava.aula16;
 
-public class Exer19 {
+public class LoopWhile {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
