@@ -4,11 +4,12 @@ public class Exer06 {
 
 	public static void main(String[] args) {
 		
+		Scanner scan = new Scanner(System.in);
 		
-		int cont = 1;
+		int cont = 0;
 		
 		do {
-			System.out.print(cont + " ");
+			System.out.println(cont);
 			cont++;
 		} while (cont <= 20);
 
