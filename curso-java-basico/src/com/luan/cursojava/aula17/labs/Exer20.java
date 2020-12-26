@@ -27,7 +27,7 @@ public class Exer20 {
 		double media = soma / idades;
 		
 		if (media >= 0 && media <= 25) {
-			System.out.println("Jovam");
+			System.out.println("Jovem");
 		} else if (media >= 26 && media <= 60) {
 			System.out.println("Adulta");
 		} else {
