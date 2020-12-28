@@ -1,0 +1,28 @@
+package com.luan.cursojava.aula17.labs;
+
+import java.util.Scanner;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		
+		
+		Scanner scan = new Scanner(System.in);
+		double valores;
+		double maior = Double.MAX_VALUE;
+		double menor = Double.MIN_VALUE;
+		
+		
+		for (int i = 1; i < 5; i++) {
+			System.out.println("Entre com os valores: ");
+			valores = scan.nextDouble();
+		}
+		
+		System.out.println("O maior: " + maior);
+		System.out.println("O menor: " + menor);
+		
+		
+		scan.close();
+	}
+
+}
