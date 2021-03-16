@@ -2,7 +2,7 @@ package com.luan.cursojava.aula19.labs;
 
 import java.util.Scanner;
 
-public class Exer15 {
+public class Exer17 {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
@@ -10,30 +10,26 @@ public class Exer15 {
 		int[] vetorA = new int[10];
 
 		for (int i = 0; i < vetorA.length; i++) {
-			System.out.println("Entre com o valor da posição " + i);
+			System.out.println("Entre com a idade da pessoa " + i);
 			vetorA[i] = scan.nextInt();
 		}
 
-		int impar = 0;
+		int qtd = 0;
 		for (int i = 0; i < vetorA.length; i++) {
-			if (vetorA[i] % 2 != 0) {
-				impar++;
+			if (vetorA[i] > 35) {
+				qtd++;
 			}
 		}
 
-		int par = vetorA.length - impar;
-		
-		int porcPar = (par * 100) / vetorA.length;
-		int porcImpar = (impar * 100) / vetorA.length;
-		
-		
-		System.out.print("Vetor A = ");
+		System.out.println("Vetor de idades = ");
 		for (int i = 0; i < vetorA.length; i++) {
 			System.out.print(vetorA[i] + " ");
 		}
+		System.out.println();
 		
-		System.out.println("Porcentagem pares: " + porcPar);
-		System.out.println("Porcentagem impares: " + porcImpar);
+		System.out.println("Qtd pessoas idade > 35: " + qtd);
+		
+		
 		
 		scan.close();
 

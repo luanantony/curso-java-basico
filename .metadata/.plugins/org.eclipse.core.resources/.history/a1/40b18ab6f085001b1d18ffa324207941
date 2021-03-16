@@ -2,16 +2,16 @@ package com.luan.cursojava.aula19.labs;
 
 import java.util.Scanner;
 
-public class Exer15 {
+public class Exer18 {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 
-		int[] vetorA = new int[10];
-
-		for (int i = 0; i < vetorA.length; i++) {
-			System.out.println("Entre com o valor da posição " + i);
-			vetorA[i] = scan.nextInt();
+		int[] idades = new int[10];
+		
+		for (int i = 0; i < idades.length; i++) {
+			System.out.println("Entre com a idade das pessoas: " + i);
+			idades[i] = scan.nextInt();
 		}
 		
 		
